@@ -1,0 +1,17 @@
+h1, h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, footer {
+    background-color: salmon;
+    text-align: center;
+}
+
+main>article {
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article>img {
+    height: 250px;
+}
