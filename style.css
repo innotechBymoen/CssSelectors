@@ -15,3 +15,28 @@ main>article {
 article>img {
     height: 250px;
 }
+
+main .mountain_image {
+    filter: grayscale(1)
+}
+
+main div img {
+    transform: translateX(300px);
+    filter: blur(2px);
+}
+
+img~p {
+    font-family: fantasy;
+}
+
+h3~img {
+    filter: opacity(0.5);
+}
+
+main+footer {
+    padding: 20px;
+}
+
+h1+img {
+    transform: translateX(300px) translateY(200px);
+}
